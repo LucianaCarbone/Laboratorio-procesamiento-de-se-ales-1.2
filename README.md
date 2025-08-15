@@ -51,4 +51,5 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
 
 ## Por:
  - Luciana Carbone Calderón (@LucianaCarbone)
- - 
+ - Ana María Sanchez Beltran (@estanamsanchezb-netizen)
+ - Marya Kathalina Prieto Martinez (@
