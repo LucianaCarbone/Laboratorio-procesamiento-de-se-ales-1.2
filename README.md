@@ -43,10 +43,9 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
 | Curtosis        | 13.133217777426  | 9.7849395792189 |
 
 ## Gráficas
-![ECG en el tiempo]
+Graficas ECG
 
-![Histograma]
-
+Histogramas
 (<img width="593" height="455" alt="lab 1 4" src="https://github.com/user-attachments/assets/6e147507-a1a9-4919-bef2-629968042c05" />)
 
 ## Por:
