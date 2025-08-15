@@ -18,7 +18,7 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
 ### Parte B
 1. **Generación:** Se generó una señal fisiológica con auda del generador de señales biológicas.
 2. **Captura:** Se capturó la señal utilizando un microcontrolador STM32 blackpill con su función ADC.
-3. **Conversión:** Los datos ADC se transformarorn a voltios (\[V= \frac{\text{ADC}}{2^N-1} \cdot V_{ref}\])
+3. **Conversión:** Los datos ADC se transformarorn a voltios.
 4. **Análisis estadístico:** Se repitieron los cálculos de la parte A.
    - Media: 0.8804996336996337 
    - Mediana: 0.8356776556776556 
