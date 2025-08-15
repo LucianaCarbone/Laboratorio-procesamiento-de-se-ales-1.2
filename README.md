@@ -51,4 +51,4 @@ Histogramas
 ## Por:
  - Luciana Carbone Calderón (@LucianaCarbone)
  - Ana María Sanchez Beltran (@estanamsanchezb-netizen)
- - Marya Kathalina Prieto Martinez (@
+ - Marya Kathalina Prieto Martinez (@Katha2025)
