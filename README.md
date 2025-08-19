@@ -25,6 +25,7 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
    - Desviación estándar: 0.4758191679603716 
    - Coeficiente de variación: 54.04%
    - Curtosis: 9.784939579218962
+5. **Histograma y función de probabilidad:** Nuevamente, se graficó el histograma y se estimó la función de densidad de probabilidad.
   
 ### Parte C
 1. **Ruido:** Se contaminó la señal con ruido Gaussiano, ruido por impulsos y ruido tipo artefacto.
