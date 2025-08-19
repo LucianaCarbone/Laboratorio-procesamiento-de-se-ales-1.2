@@ -33,7 +33,8 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
    - Ruido Gaussiano: 20.17 dB
    - Ruiedo por impulsos: 14.30 dB
    - Ruido tipo artefacto: 12.38 dB
-El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, el que genero más degradación en la señal fue el ruido de impulso
+
+El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, el que genero más degradación en la señal fue el ruido de impulso. Esto indica que las señales ECG suelen verse afectadas por artefactos de movimiento o impulsos que por ruido de tipo blanco.
   
 ## Resultados
 | Parámetro       | Señal descargada | Señal capturada |
@@ -43,6 +44,12 @@ El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado
 | Desv. estándar (V) | 0.1493893483  | 0.4758191679603 |
 | Coef. variacion |  -16691.55%      | 54.04%          |
 | Curtosis        | 13.133217777426  | 9.7849395792189 |
+
+La señal real de ECG tiene una media y mediana cercanas a cero, lo cual es normal porque el voltaje suele oscilar alrededor de la línea base (0 V). En cambio, la señal simulada muestra valores mucho más altos (≈ 0.88 V de media), lo que indica un desplazamiento de nivel DC. Esto podría deberse a problemas de calibración del convertidor analógico-digital, al diseño de la señal simulada o a un error en la patura.
+
+La señal real tiene una desviación estándar baja (≈ 0.15 V), lo que indica que sus valores de voltaje son más estables. En cambio, la señal simulada muestra mayor dispersión (≈ 0.48 V). El coeficiente de variación en la señal real es muy alto y negativo porque su media es casi cero, lo que distorsiona el cálculo. En la señal simulada, el CV (54.04%) sí refleja bien la variabilidad.
+
+La señal real tiene una curtosis muy alta (≈ 13.13), lo que indica que su forma es más puntiaguda y con colas pesadas, es decir, hay más valores extremos como los picos del QRS en el ECG. La señal simulada también tiene curtosis alta (≈ 9.78), pero es menor, lo que sugiere que sus picos son menos pronunciados. La señal real representa mejor los picos fisiológicos típicos del corazón, mientras que la simulada es más suave.
 
 ## Gráficas
 ### Graficas ECG
