@@ -59,7 +59,7 @@ El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado
 ### Histogramas
 
 **Histograma ECG descargado:**
-<img src="https://github.com/user-attachments/assets/4db0ced5-f9d3-49ec-b6fd-a63b617ca7be" width="554" height="455" />
+<img src="https://github.com/user-attachments/assets/4db0ced5-f9d3-49ec-b6fd-a63b617ca7be" width="554"/>
 
 **Histograma ECG capturado:**
 <img src="https://github.com/user-attachments/assets/6e147507-a1a9-4919-bef2-629968042c05" width="593" height="455" />
