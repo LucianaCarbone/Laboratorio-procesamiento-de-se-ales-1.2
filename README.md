@@ -68,4 +68,3 @@ El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado
  - Luciana Carbone Calderón (@LucianaCarbone)
  - Ana María Sanchez Beltran (@estanamsanchezb-netizen)
  - Marya Kathalina Prieto Martinez (@Katha2025)
-<img width="554" height="455" alt="histo_cap" src="https://github.com/user-attachments/assets/cd5b847b-63a9-44e1-ba9e-f49a0b130851" />
