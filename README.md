@@ -29,9 +29,10 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
 ### Parte C
 1. **Ruido:** Se contaminó la señal con ruido Gaussiano, ruido por impulsos y ruido tipo artefacto.
 2. Se calculó el SNR para cada caso:
-   - Ruido Gaussiano:
-   - Ruiedo por impulsos:
-   - Ruido tipo artefacto:
+   - Ruido Gaussiano: 20.17 dB
+   - Ruiedo por impulsos: 14.30 dB
+   - Ruido tipo artefacto: 12.38 dB
+El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, el que genero más degradación en la señal fue el ruido de impulso
   
 ## Resultados
 | Parámetro       | Señal descargada | Señal capturada |
@@ -43,10 +44,20 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
 | Curtosis        | 13.133217777426  | 9.7849395792189 |
 
 ## Gráficas
-Graficas ECG
+###Graficas ECG
+<img width="567" height="455" alt="grafica_ecg_1" src="https://github.com/user-attachments/assets/d0d94e19-1825-4428-9831-e17861b22302" />
+Grafica ECG descargado.
+<img width="567" height="455" alt="grafica_ecg_2" src="https://github.com/user-attachments/assets/50ac1d9b-71d4-4b7b-8df3-ce55fcefa5a5" />
+Gráfica ECG capturado.
+<img width="1189" height="592" alt="ecg_ruidos" src="https://github.com/user-attachments/assets/5f253e6c-822a-4cab-b34b-89f34bef5576" />
+Gráficas de los ruidos.
 
-Histogramas
-(<img width="593" height="455" alt="lab 1 4" src="https://github.com/user-attachments/assets/6e147507-a1a9-4919-bef2-629968042c05" />)
+###Histogramas
+<img width="1189" height="592" alt="ecg_ruidos" sr<img width="554" height="455" alt="histo_cap" src="https://github.com/user-attachments/assets/4db0ced5-f9d3-49ec-b6fd-a63b617ca7be" />
+c="https://github.com/user-attachments/assets/5f253e6c-822a-4cab-b34b-89f34bef5576" />
+Histograma ECG descargado.
+<img width="593" height="455" alt="lab 1 4" src="https://github.com/user-attachments/assets/6e147507-a1a9-4919-bef2-629968042c05" />
+Histograma ECG capturado.
 
 ## Por:
  - Luciana Carbone Calderón (@LucianaCarbone)
