@@ -17,7 +17,7 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
 
 <img width="611" height="886" alt="image" src="https://github.com/user-attachments/assets/e33a759f-4540-4345-909a-4583ebda6d47" />
 
-             Imagen 1. Diagrama de flujo parte A
+Imagen 1. Diagrama de flujo parte A
 
 ### Parte B
 1. **Generación:** Se generó una señal fisiológica con auda del generador de señales biológicas.
@@ -33,7 +33,7 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
    
   <img width="416" height="851" alt="image" src="https://github.com/user-attachments/assets/c89daba3-66ed-42f4-91e2-1e506448260e" />
   
-             Imagen 2. Diagrama de flujo parte B
+Imagen 2. Diagrama de flujo parte B
 
 ### Parte C
 1. **Ruido:** Se contaminó la señal con ruido Gaussiano, ruido por impulsos y ruido tipo artefacto.
@@ -46,7 +46,7 @@ El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado
 
   <img width="376" height="791" alt="image" src="https://github.com/user-attachments/assets/786c11c2-4e4e-49ec-8b00-2dabcda0e0b2" />
   
-                Imagen 3. Diagrama de flujo parte C
+Imagen 3. Diagrama de flujo parte C
 
 ## Resultados
 | Parámetro       | Señal descargada | Señal capturada |
@@ -68,17 +68,17 @@ La señal real tiene una curtosis muy alta (≈ 13.13), lo que indica que su for
 **ECG descargado:**
 <img src="https://github.com/user-attachments/assets/d0d94e19-1825-4428-9831-e17861b22302" width="567" height="455" />
 
-                                Imagen 4. ECG desacargado 
+ Imagen 4. ECG desacargado 
 
 **ECG capturado:**
 <img src="https://github.com/user-attachments/assets/50ac1d9b-71d4-4b7b-8df3-ce55fcefa5a5" width="567" height="455" />
 
-                               Imagen 5. ECG capturado 
+  Imagen 5. ECG capturado 
 
 **Ruido en señal ECG:**
 <img src="https://github.com/user-attachments/assets/5f253e6c-822a-4cab-b34b-89f34bef5576" width="1189" height="592" />
 
-                              Imagen 6. Ruido de señal ECG
+  Imagen 6. Ruido de señal ECG
 
 ---
 
@@ -87,12 +87,11 @@ La señal real tiene una curtosis muy alta (≈ 13.13), lo que indica que su for
 **Histograma ECG descargado:**
 <img width="554" height="455" alt="histo_cap" src="https://github.com/user-attachments/assets/cd5b847b-63a9-44e1-ba9e-f49a0b130851" />
 
-                           Imagen 7. Histograma ECG descargado 
+  Imagen 7. Histograma ECG descargado 
 
 **Histograma ECG capturado:**
 <img src="https://github.com/user-attachments/assets/6e147507-a1a9-4919-bef2-629968042c05" width="593" height="455" />
-
-                          Imagen 8. Histograma ECG capturado  
+  Imagen 8. Histograma ECG capturado  
 
 ## Por:
  - Luciana Carbone Calderón (@LucianaCarbone)
