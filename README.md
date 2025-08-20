@@ -15,6 +15,9 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
    - Curtosis: 13.133217777426063
 4. **Histograma y función de probabilidad:** Se graficó el histograma y se estimó la función de densidad de probabilidad.
 
+<img width="611" height="886" alt="image" src="https://github.com/user-attachments/assets/e33a759f-4540-4345-909a-4583ebda6d47" />
+Imagen 1. Diagrama de flujo parte A
+
 ### Parte B
 1. **Generación:** Se generó una señal fisiológica con auda del generador de señales biológicas.
 2. **Captura:** Se capturó la señal utilizando un microcontrolador STM32 blackpill con su función ADC.
@@ -26,7 +29,9 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
    - Coeficiente de variación: 54.04%
    - Curtosis: 9.784939579218962
 5. **Histograma y función de probabilidad:** Nuevamente, se graficó el histograma y se estimó la función de densidad de probabilidad.
-  
+  <img width="416" height="851" alt="image" src="https://github.com/user-attachments/assets/c89daba3-66ed-42f4-91e2-1e506448260e" />
+Imagen 2. Diagrama de flujo parte B
+
 ### Parte C
 1. **Ruido:** Se contaminó la señal con ruido Gaussiano, ruido por impulsos y ruido tipo artefacto.
 2. Se calculó el SNR para cada caso:
@@ -35,7 +40,9 @@ Analizar estadísticamente una señal fisiológica, calcular sus principales par
    - Ruido tipo artefacto: 12.38 dB
 
 El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, el que genero más degradación en la señal fue el ruido de impulso. Esto indica que las señales ECG suelen verse afectadas por artefactos de movimiento o impulsos que por ruido de tipo blanco.
-  
+  <img width="376" height="791" alt="image" src="https://github.com/user-attachments/assets/786c11c2-4e4e-49ec-8b00-2dabcda0e0b2" />
+Imagen 3. Diagrama de flujo parte C
+
 ## Resultados
 | Parámetro       | Señal descargada | Señal capturada |
 |-----------------|------------------|-----------------|
