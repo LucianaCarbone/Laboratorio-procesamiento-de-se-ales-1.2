@@ -41,7 +41,7 @@ Imagen 1. Diagrama de flujo parte A
 Imagen 2. Diagrama de flujo parte B
 
 ### Parte C
-1. **Ruido:** La señal fue contaminada de manera controlada mediante la programación en pyhton, donde se implementaron funciones para añadir distintos tipos de ruido.
+1. **Ruido:** La señal fue contaminada de manera controlada mediante la programación en python, donde se implementaron funciones para añadir distintos tipos de ruido.
    - Gaussiano: Para simular el ruido aleatorio común
    - Por impulso: Representando picos repentinos de alta amplitud
    - Tipo artefacto: Emulando distorsiones producidas por interferencias externas
