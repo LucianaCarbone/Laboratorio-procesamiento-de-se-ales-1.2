@@ -47,10 +47,10 @@ Imagen 2. Diagrama de flujo parte B
    - Tipo artefacto: Emulando distorsiones producidas por interferencias externas
 2. Se calculó el SNR para cada caso:
    - Ruido Gaussiano: 20.17 dB
-   - Ruiedo por impulsos: 14.30 dB
+   - Ruido por impulsos: 14.30 dB
    - Ruido tipo artefacto: 12.38 dB
 
-El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, el que genero más degradación en la señal fue el ruido de impulso. Esto indica que las señales ECG suelen verse afectadas por artefactos de movimiento o impulsos que por ruido de tipo blanco.
+El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, mientras que el de mayor degradación en la señal fue el ruido de impulso. Esto indica que las señales ECG suelen verse afectadas por artefactos de movimiento o impulsos que por ruido de tipo blanco.
 
   <img width="376" height="791" alt="image" src="https://github.com/user-attachments/assets/786c11c2-4e4e-49ec-8b00-2dabcda0e0b2" />
   
