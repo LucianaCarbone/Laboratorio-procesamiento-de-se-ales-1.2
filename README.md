@@ -30,6 +30,7 @@ Imagen 1. Diagrama de flujo parte A
    - Coeficiente de variación: 54.04%
    - Curtosis: 9.784939579218962
 5. **Histograma y función de probabilidad:** Nuevamente, se graficó el histograma y se estimó la función de densidad de probabilidad.
+   
   <img width="416" height="851" alt="image" src="https://github.com/user-attachments/assets/c89daba3-66ed-42f4-91e2-1e506448260e" />
   
 Imagen 2. Diagrama de flujo parte B
@@ -42,6 +43,7 @@ Imagen 2. Diagrama de flujo parte B
    - Ruido tipo artefacto: 12.38 dB
 
 El ruido que dio una señal mucho más limpia y que dio con menos ruido agregado fue el Gaussiano, el que genero más degradación en la señal fue el ruido de impulso. Esto indica que las señales ECG suelen verse afectadas por artefactos de movimiento o impulsos que por ruido de tipo blanco.
+
   <img width="376" height="791" alt="image" src="https://github.com/user-attachments/assets/786c11c2-4e4e-49ec-8b00-2dabcda0e0b2" />
   
 Imagen 3. Diagrama de flujo parte C
