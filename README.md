@@ -21,22 +21,30 @@ Imagen 1. Diagrama de flujo parte A
 
 ### Parte B
 1. **Generación:** Se generó una señal fisiológica con ayuda del generador de señales biológicas.
-2. **Captura:** Se capturó la señal utilizando un microcontrolador STM32 Black Pill con su función ADC.
-3. **Conversión:** Los datos ADC se transformarorn a voltios mediante el conversor configurado en  STM32CubeMX. Luego, se programó en Keil uVisión5 y se cargó a la placa para capturar la señal.Además, se desarrolló en python una interfaz gráfica que permitió visualizar en tiempo real la señal adquirida.
-4. **Análisis estadístico:** Se repitieron los cálculos de la parte A.
+2. **Captura:** Se capturó la señal utilizando un microcontrolador STM32 Black Pill usando su módulo ADC para convertir la señal analógica en digital.
+3. **Conversión:** Los datos ADC se configuraron en  STM32CubeMX y se programaron en Keil uVisión5 para que fueran enviados a través del puerto serial de la placa hacia el computador.
+4. **Visualización en Phyton:** En el computador se ejecutó el archivo  , el cual:
+   - Recibe los datos enviados por la STM32 mediante el puerto serial
+   - Convierte los valores a voltaje
+   - Grafica la señal en tiempo real con matplotlib
+   - Guarda los datos en un archivo CSV para el análisis posterior
+5.  **Análisis estadístico:** Se repitieron los cálculos de la parte A.
    - Media: 0.8804996336996337 
    - Mediana: 0.8356776556776556 
    - Desviación estándar: 0.4758191679603716 
    - Coeficiente de variación: 54.04%
    - Curtosis: 9.784939579218962
-5. **Histograma y función de probabilidad:** Nuevamente, se graficó el histograma y se estimó la función de densidad de probabilidad.
+6. **Histograma y función de probabilidad:** Nuevamente, se graficó el histograma y se estimó la función de densidad de probabilidad.
    
   <img width="416" height="851" alt="image" src="https://github.com/user-attachments/assets/c89daba3-66ed-42f4-91e2-1e506448260e" />
   
 Imagen 2. Diagrama de flujo parte B
 
 ### Parte C
-1. **Ruido:** Se contaminó la señal con ruido Gaussiano, ruido por impulsos y ruido tipo artefacto.
+1. **Ruido:** La señal fue contaminada de manera controlada mediante la programación en pyhton, donde se implementaron funciones para añadir distintos tipos de ruido.
+   - Gaussiano: Para simular el ruido aleatorio común
+   - Por impulso: Representando picos repentinos de alta amplitud
+   - Tipo artefacto: Emulando distorsiones producidas por interferencias externas
 2. Se calculó el SNR para cada caso:
    - Ruido Gaussiano: 20.17 dB
    - Ruiedo por impulsos: 14.30 dB
