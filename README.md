@@ -21,7 +21,7 @@ Imagen 1. Diagrama de flujo parte A
 
 ### Parte B
 1. **Generación:** Se generó una señal fisiológica con ayuda del generador de señales biológicas.
-2. **Captura:** Se capturó la señal utilizando un microcontrolador STM32 Black Pill usando su módulo ADC para convertir la señal analógica en digital.
+2. **Captura:** Se capturó la señal utilizando el microcontrolador STM32 Black Pill usando su módulo ADC para convertir la señal analógica en digital.
 3. **Conversión:** Los datos ADC se configuraron en  STM32CubeMX y se programaron en Keil uVisión5 para que fueran enviados a través del puerto serial de la placa hacia el computador.
 4. **Visualización en Phyton:** En el computador se ejecutó el archivo  , el cual:
    - Recibe los datos enviados por la STM32 mediante el puerto serial
