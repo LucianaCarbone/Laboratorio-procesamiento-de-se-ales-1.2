@@ -68,17 +68,17 @@ La señal real tiene una curtosis muy alta (≈ 13.13), lo que indica que su for
 **ECG descargado:**
 <img src="https://github.com/user-attachments/assets/d0d94e19-1825-4428-9831-e17861b22302" width="567" height="455" />
 
- Imagen 4. ECG desacargado 
+
 
 **ECG capturado:**
 <img src="https://github.com/user-attachments/assets/50ac1d9b-71d4-4b7b-8df3-ce55fcefa5a5" width="567" height="455" />
 
-  Imagen 5. ECG capturado 
+ 
 
 **Ruido en señal ECG:**
 <img src="https://github.com/user-attachments/assets/5f253e6c-822a-4cab-b34b-89f34bef5576" width="1189" height="592" />
 
-  Imagen 6. Ruido de señal ECG
+
 
 ---
 
@@ -87,11 +87,11 @@ La señal real tiene una curtosis muy alta (≈ 13.13), lo que indica que su for
 **Histograma ECG descargado:**
 <img width="554" height="455" alt="histo_cap" src="https://github.com/user-attachments/assets/cd5b847b-63a9-44e1-ba9e-f49a0b130851" />
 
-  Imagen 7. Histograma ECG descargado 
+  
 
 **Histograma ECG capturado:**
 <img src="https://github.com/user-attachments/assets/6e147507-a1a9-4919-bef2-629968042c05" width="593" height="455" />
-  Imagen 8. Histograma ECG capturado  
+   
 
 ## Por:
  - Luciana Carbone Calderón (@LucianaCarbone)
